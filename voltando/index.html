@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página simples de voltando aos estudos">
+    <link rel="shortcut icon" href="icones/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Voltando aos estudos</title>
+</head>
+
+<body>
+    <header id="topo" class="menu-principal">
+        <h1>VOLTANDO AOS ESTUDOS</h1>
+        <nav>
+            <div class="menu_assunto">
+                <span>Departamentos</span>
+                <ul class="lista_menu">
+                    <li>
+                        <a class="menu" href="#secretaria-geral" title="Clique para acessar o artigo da secretaria geral">Secretaria Geral</a>
+                    </li>
+                    <li>
+                        <a class="menu" href="#secretaria-de-missoes" title="Clique para acessar o artigo da secretaria de missões">Secretaria de Missões</a>
+                    </li>
+                    <li>
+                        <a class="menu" href="#tesouraria" title="Clique para acessar o artigo da tesouraria">Tesouraria</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="vmid">
+                <a class="menu" href="videos.html" target="_self" title="Clique para acessar a aba de vídeos">Vídeos</a>
+                <a class="menu" href="musicas.html" target="_self" title="Clique para acessar a aba de músicas">Músicas</a>
+                <a class="menu" href="imagens.html" target="_self" title="Clique para acessar a aba de imagens">Imagens</a>
+                <a class="menu" href="downloads.html" target="_self" title="Clique para acessar a aba de downloads">Downloads</a>
+            </div>
+        </nav>
+        <hr>
+    </header>
+
+    <main class="conteudo-principal">
+        <section id="secretaria-geral" class="secretaria-geral">
+            <article>
+                <h2>Secretaria</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio delectus molestias, dicta quisquam, quo error doloribus libero perspiciatis qui perferendis odio quod dolorum facilis quas recusandae ea rerum quibusdam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit praesentium magni accusamus totam deleniti dolorum omnis voluptatem iure voluptatibus, atque itaque magnam corrupti non nesciunt! Tempora suscipit dolorem vel. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium ab harum ratione. Distinctio sit, possimus expedita ipsa necessitatibus repellat ut eveniet at a nisi veniam aperiam impedit eius adipisci nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti inventore omnis recusandae fugit dolorem repellat odio exercitationem, voluptates nam sunt? Voluptate, itaque modi. Odio saepe, ex illum vel accusantium cupiditate! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est tempora deleniti deserunt ad. Est quo eaque minus fuga, eius atque praesentium velit repellat nulla harum sint aliquam eligendi rerum inventore.
+                </p>
+            </article>
+        </section>
+
+        <section id="secretaria-de-missoes" class="secretaria-de-missoes">
+            <article>
+                <h2>Secretaria de Missões</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio delectus molestias, dicta quisquam, quo error doloribus libero perspiciatis qui perferendis odio quod dolorum facilis quas recusandae ea rerum quibusdam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit praesentium magni accusamus totam deleniti dolorum omnis voluptatem iure voluptatibus, atque itaque magnam corrupti non nesciunt! Tempora suscipit dolorem vel. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium ab harum ratione. Distinctio sit, possimus expedita ipsa necessitatibus repellat ut eveniet at a nisi veniam aperiam impedit eius adipisci nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti inventore omnis recusandae fugit dolorem repellat odio exercitationem, voluptates nam sunt? Voluptate, itaque modi. Odio saepe, ex illum vel accusantium cupiditate! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est tempora deleniti deserunt ad. Est quo eaque minus fuga, eius atque praesentium velit repellat nulla harum sint aliquam eligendi rerum inventore.
+                </p>
+            </article>
+        </section>
+
+        <section id="tesouraria" class="tesouraria">
+            <article>
+                <h2>Tesouraria</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio delectus molestias, dicta quisquam, quo error doloribus libero perspiciatis qui perferendis odio quod dolorum facilis quas recusandae ea rerum quibusdam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit praesentium magni accusamus totam deleniti dolorum omnis voluptatem iure voluptatibus, atque itaque magnam corrupti non nesciunt! Tempora suscipit dolorem vel. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium ab harum ratione. Distinctio sit, possimus expedita ipsa necessitatibus repellat ut eveniet at a nisi veniam aperiam impedit eius adipisci nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti inventore omnis recusandae fugit dolorem repellat odio exercitationem, voluptates nam sunt? Voluptate, itaque modi. Odio saepe, ex illum vel accusantium cupiditate! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est tempora deleniti deserunt ad. Est quo eaque minus fuga, eius atque praesentium velit repellat nulla harum sint aliquam eligendi rerum inventore.
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <nav class="btn_rodape">
+            <a href="#topo" title="Clique para voltar ao topo">
+                <img class="imagem-footer" src="imagens/voltar.png" alt="Botão de voltar ao topo">
+            </a>
+        </nav>
+    </footer>
+
+    <button id="btn_footer">Clique pop-up</button>
+
+    <script type="text/javascript">
+        document.getElementById("btn_footer").onclick = function() {
+            alert("Exemplo concluído com sucesso!")
+        } 
+        // este é um simples comentário de exemplo usando as teclas de atalho (cntrl + k + c)
+    </script>
+</body>
+
+</html>

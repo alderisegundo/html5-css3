@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de imagens">
+    <link rel="shortcut icon" href="icones/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Imagens</title>
+</head>
+
+<body>
+    <header>
+        <h1>VEJA NOSSAS IMAGENS</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Culto de Domingo</h2>
+            <picture>
+                <source media="(max-width: 815px)" srcset="imagens/imagem-pequena.png" type="image/png">
+                <source media="(max-width: 1015px)" srcset="imagens/imagem-pequena-media.png" type="image/png">
+                <source media="(max-width: 1215px)" srcset="imagens/imagem-media-grande.png" type="image/png">
+                <img src="imagens/imagem-grande.png" alt="Imagem referente ao culto do último domingo">
+            </picture>
+
+            <p>Para baixar nossas imagens, siga para a página de <a class="menu" href="downloads.html" title="Clique para acessar a página de downloads">downloads</a></p>
+        </section>
+        <hr>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="index.html" rel="prev" title="Clique para voltar à página inicial">
+                <img src="imagens/voltar.png" alt="Imagem referente ao botão de voltar">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>

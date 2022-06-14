@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Essa página é apenas para praticar HTML5 e CSS3">
+    <link rel="shortcut icon" href="icones/favicon.ico" type="image/x-icon">
+    <title>Praticando</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        a {
+            text-decoration: none;}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Praticando <abbr title="Hyper Text Markup Language 5">HTML5</abbr></h1>
+    </header>
+    
+    <main>
+        <section class="imagem">
+            <picture>
+                <source media="(max-width: 730px)" srcset="imagens/imagem-p.png" type="image/png">
+                <source media="(max-width: 1030px)" srcset="imagens/imagem-m.png" type="image/png">
+                <img src="imagens/imagem-g.png" alt="Imagem Grande">
+            </picture>
+        </section>
+        
+        <section class="audio">
+            <h2>Ouça este áudio para saber mais</h2>
+            <audio preload="metadata" controls>
+                <source src="audio/natural-light.mp3" type="audio/mp3">
+                <source src="audio/natural-light.ogg" type="audio/ogg">
+                <source src="audio/natural-light.wav" type="audio/wav">
+                <p>Seu navegador não pode reproduzir este áudio</p>
+            </audio>
+        </section>
+
+            <section class="video">
+                <h2>Assista o vídeo abaixo</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fepbKVRc35Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </section>
+
+            <section class="download">
+                <h2>Baixe nossos arquivos</h2>
+                Clique aqui para fazer o <a href="audio/natural-light.mp3" download="audio/natural-light.mp3">download</a>
+            </section>
+    </main>
+
+
+    <div class="teste">
+        <div class="fase">
+            <a href="#">home</a>
+            <a href="#">home</a>
+            <a href="#">home</a>
+            <a href="#">home</a>
+        </div>
+    </div>
+</body>
+
+</html>
