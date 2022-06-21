@@ -214,6 +214,7 @@ div.lists {
 .lists ul {
     font: bolder 1rem var(--font-padrao);
     list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
     margin-bottom: 1rem;
 }
 
