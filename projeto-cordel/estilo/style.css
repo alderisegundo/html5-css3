@@ -64,12 +64,12 @@ section.image {
 
 .image.first {
     background: url('../imagens/background001.jpg') right;
-    background-size: cover;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .image.second {
-    background: url('../imagens/background002.jpg') center;
+    background: url('../imagens/background002.jpg') right;
     background-size: cover;
     background-attachment: fixed;
 }
