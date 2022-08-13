@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de estudos de Desenvolvimento Web">
+    <title>Tabelas</title>
+
+    <style>
+        body {
+            font-family: 'Poppins', cursive;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        thead,
+        tfoot {
+            background-color: rgb(95, 95, 95);
+            color: white;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        td.position {
+            width: 50px;
+            text-align: center;
+        }
+
+        td.state {
+            text-align: left;
+        }
+
+        td.population {
+            text-align: right;
+        }
+
+        tfoot td.total {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!-------------------------------------
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -------------------------------------->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Unidade Federativa</th>
+                <th>População 2021</th>
+            </tr>
+        </thead>
+        <!-------------------- São Paulo -------------------->
+        <tbody>
+            <tr class="line-1">
+                <td class="position">1</td>
+                <td class="state">São Paulo</td>
+                <td class="population">46 649 132</td>
+            </tr>
+            <!-------------------- Minas Gerais -------------------->
+            <tr class="line-2">
+                <td class="position">2</td>
+                <td class="state">Minas Gerais</td>
+                <td class="population">21 411 923</td>
+            </tr>
+            <!-------------------- Rio de Janeiro -------------------->
+            <tr class="line-3">
+                <td class="position">3</td>
+                <td class="state">Rio de Janeiro</td>
+                <td class="population">17 463 349</td>
+            </tr>
+            <!-------------------- Bahia -------------------->
+            <tr class="line-4">
+                <td class="position">4</td>
+                <td class="state">Bahia</td>
+                <td class="population">14 985 284</td>
+            </tr>
+            <!-------------------- Paraná -------------------->
+            <tr class="line-5">
+                <td class="position">5</td>
+                <td class="state">Paraná</td>
+                <td class="population">11 597 484</td>
+            </tr>
+            <!-------------------- Rio Grande do Sul -------------------->
+            <tr class="line-6">
+                <td class="position">6</td>
+                <td class="state">Rio Grande do Sul</td>
+                <td class="population">11 466 630</td>
+            </tr>
+            <!-------------------- Pernambuco -------------------->
+            <tr class="line-7">
+                <td class="position">7</td>
+                <td class="state">Pernambuco</td>
+                <td class="population">9 674 793</td>
+            </tr>
+            <!-------------------- Ceará -------------------->
+            <tr class="line-8">
+                <td class="position">8</td>
+                <td class="state">Ceará</td>
+                <td class="population">9 240 580</td>
+            </tr>
+            <!-------------------- Pará -------------------->
+            <tr class="line-9">
+                <td class="position">9</td>
+                <td class="state">Pará</td>
+                <td class="population">8 777 124</td>
+            </tr>
+            <!-------------------- Santa Catarina -------------------->
+            <tr class="line-10">
+                <td class="position">10</td>
+                <td class="state">Santa Catarina</td>
+                <td class="population">7 338 473</td>
+            </tr>
+            <!-------------------- Goiás -------------------->
+            <tr class="line-11">
+                <td class="position">11</td>
+                <td class="state">Goiás</td>
+                <td class="population">7 206 589</td>
+            </tr>
+            <!-------------------- Maranhão -------------------->
+            <tr class="line-12">
+                <td class="position">12</td>
+                <td class="state">Maranhão</td>
+                <td class="population">7 153 262</td>
+            </tr>
+            <!-------------------- Amazonas -------------------->
+            <tr class="line-13">
+                <td class="position">13</td>
+                <td class="state">Amazonas</td>
+                <td class="population">4 269 995</td>
+            </tr>
+            <!-------------------- Espírito Santo -------------------->
+            <tr class="line-14">
+                <td class="position">14</td>
+                <td class="state">Espírito Santo</td>
+                <td class="population">4 108 508</td>
+            </tr>
+            <!-------------------- Paraíba -------------------->
+            <tr class="line-15">
+                <td class="position">15</td>
+                <td class="state">Paraíba</td>
+                <td class="population">4 059 905</td>
+            </tr>
+            <!-------------------- Mato Grosso -------------------->
+            <tr class="line-16">
+                <td class="position">16</td>
+                <td class="state">Mato Grosso</td>
+                <td class="population">3 567 234</td>
+            </tr>
+            <!-------------------- Rio Grande do Norte -------------------->
+            <tr class="line-17">
+                <td class="position">17</td>
+                <td class="state">Rio Grande do Norte</td>
+                <td class="population">3 560 903</td>
+            </tr>
+            <!-------------------- Alagoas -------------------->
+            <tr class="line-18">
+                <td class="position">18</td>
+                <td class="state">Alagoas</td>
+                <td class="population">3 365 351</td>
+            </tr>
+            <!-------------------- Piauí -------------------->
+            <tr class="line-19">
+                <td class="position">19</td>
+                <td class="state">Piauí</td>
+                <td class="population">3 289 290</td>
+            </tr>
+            <!-------------------- Distrito Federal -------------------->
+            <tr class="line-20">
+                <td class="position">20</td>
+                <td class="state">Distrito Federal</td>
+                <td class="population">3 094 325</td>
+            </tr>
+            <!-------------------- Mato Grosso do Sul -------------------->
+            <tr class="line-21">
+                <td class="position">21</td>
+                <td class="state">Mato Grosso do Sul</td>
+                <td class="population">2 839 188</td>
+            </tr>
+            <!-------------------- Sergipe -------------------->
+            <tr class="line-22">
+                <td class="position">22</td>
+                <td class="state">Sergipe</td>
+                <td class="population">2 338 474</td>
+            </tr>
+            <!-------------------- Rondônia -------------------->
+            <tr class="line-23">
+                <td class="position">23</td>
+                <td class="state">Rondônia</td>
+                <td class="population">1 815 278</td>
+            </tr>
+            <!-------------------- Tocantins -------------------->
+            <tr class="line-24">
+                <td class="position">24</td>
+                <td class="state">Tocantins</td>
+                <td class="population">1 607 363</td>
+            </tr>
+            <!-------------------- Acre -------------------->
+            <tr class="line-25">
+                <td class="position">25</td>
+                <td class="state">Acre</td>
+                <td class="population">906 876</td>
+            </tr>
+            <!-------------------- Amapá -------------------->
+            <tr class="line-26">
+                <td class="position">26</td>
+                <td class="state">Amapá</td>
+                <td class="population">877 613</td>
+            </tr>
+            <!-------------------- Roraima -------------------->
+            <tr class="line-27">
+                <td class="position">27</td>
+                <td class="state">Roraima</td>
+                <td class="population">652 713</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td></td>
+                <th>População Total</th>
+                <td class="total">
+                    <strong>213.317.639</strong>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
