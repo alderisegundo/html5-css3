@@ -24,10 +24,21 @@
             color: white;
         }
 
+        caption {
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+
         td,
         th {
             border: 1px solid black;
             padding: 10px;
+        }
+
+        th.pop {
+            width: 80px;
         }
 
         td.position {
@@ -54,6 +65,7 @@
     <!-------------------------------------
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -65,10 +77,11 @@
     <table>
         <thead>
             <tr>
-                <th>Posição</th>
-                <th>Unidade Federativa</th>
-                <th>População 2021</th>
+                <th scope="col">Posição</th>
+                <th scope="col">Unidade Federativa</th>
+                <th class="pop" scope="col">População 2021</th>
             </tr>
+            <caption>População das unidades federativas</caption>
         </thead>
         <!-------------------- São Paulo -------------------->
         <tbody>
@@ -238,7 +251,7 @@
         <tfoot>
             <tr>
                 <td></td>
-                <th>População Total</th>
+                <th scope="row">População Total</th>
                 <td class="total">
                     <strong>213.317.639</strong>
                 </td>
